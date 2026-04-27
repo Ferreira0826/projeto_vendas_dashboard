@@ -1,7 +1,8 @@
-
 # 📊 Dashboard de Vendas — Pipeline de Dados
 
-Projeto completo de Engenharia de Dados com ETL, API e Dashboard interativo.
+Projeto completo de Engenharia de Dados com ETL, API REST e Dashboard interativo.
+
+---
 
 ## 🚀 Tecnologias
 
@@ -39,3 +40,16 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
+
+cd frontend
+npm install
+npm run dev
+
+---
+
+## ⚙️ 2. Gerar requirements.txt
+
+Dentro de `backend`:
+
+```bash
+pip freeze > requirements.txt
