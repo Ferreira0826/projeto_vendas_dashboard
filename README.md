@@ -1,3 +1,4 @@
+
 # 📊 Dashboard de Vendas — Pipeline de Dados
 
 Projeto completo de Engenharia de Dados com ETL, API e Dashboard interativo.
