@@ -6,7 +6,9 @@ export function useSalesData() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/vendas/")
+    const API_URL = import.meta.env.VITE_API_URL;
+
+    fetch(`${API_URL}/api/vendas/`)
       .then((res) => res.json())
       .then((json) => {
         console.log("DADOS DA API:", json);
