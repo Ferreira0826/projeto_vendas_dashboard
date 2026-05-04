@@ -47,6 +47,11 @@ export const salesData: Sale[] = [
 export const META_MENSAL = 800000; // R$ por mês
 
 export const formatBRL = (n: number) =>
-  n.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+  n.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    maximumFractionDigits: 0,
+  });
 
-export const import { formatNumber, formatBRL } from "../lib/utils"; = (n: number) => n.toLocaleString("pt-BR");
+export const formatNumber = (n: number) =>
+  n.toLocaleString("pt-BR");
