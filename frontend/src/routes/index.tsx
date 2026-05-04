@@ -74,6 +74,10 @@ function formatBRL(value: number) {
   });
 }
 
+function import { formatNumber, formatBRL } from "../lib/utils";(value: number) {
+  return value.toLocaleString("pt-BR");
+}
+
 function Dashboard() {
 const { salesData, loading } = useSalesData();
 
@@ -214,8 +218,8 @@ if (loading) {
         {/* KPIs */}
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
           <KpiCard icon={DollarSign} label="Receita Total" value={formatBRL(receitaTotal)} accent />
-          <KpiCard icon={ShoppingCart} label="Total de Pedidos" value={formatNumber(totalPedidos)} />
-          <KpiCard icon={Package} label="Produtos Vendidos" value={formatNumber(totalProdutos)} />
+          <KpiCard icon={ShoppingCart} label="Total de Pedidos" value={import { formatNumber, formatBRL } from "../lib/utils";(totalPedidos)} />
+          <KpiCard icon={Package} label="Produtos Vendidos" value={import { formatNumber, formatBRL } from "../lib/utils";(totalProdutos)} />
           <KpiCard icon={Target} label="Ticket Médio" value={formatBRL(ticketMedio)} />
           <KpiCard icon={Award} label="Meta Mensal" value={formatBRL(META_MENSAL)} hint={`${mesesAtingidos}/${metaVsReal.filter(m=>m.Realizado>0).length} meses atingidos`} />
           <KpiCard icon={crescimento >= 0 ? TrendingUp : TrendingDown} label="Crescimento Mensal"
