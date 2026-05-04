@@ -14,6 +14,24 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../co
 import { Badge } from "../components/ui/badge";
 import { Progress } from "../components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+import { formatNumber, formatBRL } from "../lib/utils";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export function formatNumber(value: number) {
+  return value.toLocaleString("pt-BR");
+}
+
+export function formatBRL(value: number) {
+  return value.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
+}
 
 const META_MENSAL = 50000;
 
@@ -66,17 +84,6 @@ const CHART_COLORS = [
 ];
 
 function ym(d: string) { return d.slice(0, 7); }
-
-function formatBRL(value: number) {
-  return value.toLocaleString("pt-BR", {
-    style: "currency",
-    currency: "BRL",
-  });
-}
-
-function import { formatNumber, formatBRL } from "../lib/utils";(value: number) {
-  return value.toLocaleString("pt-BR");
-}
 
 function Dashboard() {
 const { salesData, loading } = useSalesData();
