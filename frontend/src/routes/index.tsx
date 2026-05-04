@@ -67,6 +67,13 @@ const CHART_COLORS = [
 
 function ym(d: string) { return d.slice(0, 7); }
 
+function formatBRL(value: number) {
+  return value.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
+}
+
 function Dashboard() {
 const { salesData, loading } = useSalesData();
 
