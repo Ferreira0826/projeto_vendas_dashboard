@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function import { formatNumber, formatBRL } from "../lib/utils";(value: number) {
+export function formatNumber(value: number) {
   return value.toLocaleString("pt-BR");
 }
 
