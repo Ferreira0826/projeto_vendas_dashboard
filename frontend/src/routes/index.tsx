@@ -65,6 +65,8 @@ const CHART_COLORS = [
 
 function ym(d: string) { return d.slice(0, 7); }
 
+const META_MENSAL = 50000;
+
 function Dashboard() {
 const { salesData, loading } = useSalesData();
 
