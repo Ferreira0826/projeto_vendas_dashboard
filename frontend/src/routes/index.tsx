@@ -15,6 +15,8 @@ import { Badge } from "../components/ui/badge";
 import { Progress } from "../components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
 
+const META_MENSAL = 50000;
+
 export const Route = createFileRoute("/")({
   component: Dashboard,
   head: () => ({
@@ -64,8 +66,6 @@ const CHART_COLORS = [
 ];
 
 function ym(d: string) { return d.slice(0, 7); }
-
-const META_MENSAL = 50000;
 
 function Dashboard() {
 const { salesData, loading } = useSalesData();
