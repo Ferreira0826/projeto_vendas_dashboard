@@ -8,12 +8,12 @@ import {
   TrendingUp, TrendingDown, DollarSign, ShoppingCart, Package, Target,
   Users, AlertTriangle, Sparkles, Award, Store, Globe, BarChart3,
 } from "lucide-react";
-import { META_MENSAL, formatBRL, formatNumber, type Sale } from "@/lib/sales-data";
-import { useSalesData } from "@/hooks/useSalesData";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import type { Sale } from "../lib/sales-data";
+import { useSalesData } from "../hooks/useSalesData";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
+import { Progress } from "../components/ui/progress";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
 
 export const Route = createFileRoute("/")({
   component: Dashboard,
