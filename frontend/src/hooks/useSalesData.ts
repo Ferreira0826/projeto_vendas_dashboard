@@ -6,7 +6,8 @@ export function useSalesData() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const API_URL = import.meta.env.VITE_API_URL;
+    const API_URL = import.meta.env.VITE_API_URL || "";
+    console.log("API_URL:", API_URL);
 
     fetch(`${API_URL}/api/vendas/`)
       .then((res) => res.json())
