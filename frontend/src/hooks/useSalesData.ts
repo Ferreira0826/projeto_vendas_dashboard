@@ -8,33 +8,54 @@ export function useSalesData() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-  async function load() {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 12000);
+    let isMounted = true;
 
-    try {
-      const res = await fetch(`${API_URL}/api/vendas/`, {
-        signal: controller.signal,
-      });
+    async function load() {
+      try {
+        console.log("API_URL:", API_URL);
 
-      const data = await res.json();
+        if (!API_URL) {
+          console.warn("Sem API_URL. Usando dados locais.");
+          if (isMounted) setSalesData(localSalesData);
+          return;
+        }
 
-      if (Array.isArray(data) && data.length > 0) {
-        setSalesData(data);
-      } else {
-        setSalesData(localSalesData);
+        const res = await fetch(`${API_URL}/api/vendas/`);
+
+        if (!res.ok) {
+          throw new Error(`Erro HTTP: ${res.status}`);
+        }
+
+        const data = await res.json();
+
+        console.log("DADOS API:", data);
+
+        if (isMounted) {
+          if (Array.isArray(data) && data.length > 0) {
+            setSalesData(data);
+          } else {
+            setSalesData(localSalesData);
+          }
+        }
+      } catch (error) {
+        console.error("Erro ao carregar dados:", error);
+
+        if (isMounted) {
+          setSalesData(localSalesData);
+        }
+      } finally {
+        if (isMounted) {
+          setLoading(false);
+        }
       }
-    } catch (error) {
-      console.error("Erro ao carregar API. Usando dados locais:", error);
-      setSalesData(localSalesData);
-    } finally {
-      clearTimeout(timeout);
-      setLoading(false);
     }
-  }
 
-  load();
-}, []);
+    load();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   return { salesData, loading };
 }
