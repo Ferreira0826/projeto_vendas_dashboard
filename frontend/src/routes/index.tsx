@@ -73,6 +73,15 @@ const CHART_COLORS = [
 
 function ym(d: string) { return d.slice(0, 7); }
 
+function formatBRLCompact(value: number) {
+  return new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(value);
+}
+
 function Dashboard() {
 const { salesData, loading } = useSalesData();
 
