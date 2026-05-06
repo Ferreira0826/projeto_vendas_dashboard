@@ -90,8 +90,8 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   // KPIs
   const receitaTotal = filtered.reduce((a, s) => a + Number(s.receita), 0);
   const totalPedidos = filtered.length;
-  const totalProdutos = filtered.reduce((a, s) => a + (Number(s.vendas) || 0), 0);
-  const ticketMedio = totalPedidos ? receitaTotal / totalPedidos : 0;
+  const totalProdutos = filtered.reduce((a, s) => a + s.vendas, 0);
+  const ticketMedio = totalProdutos ? receitaTotal / totalPedidos : 0;
 
   // Receita por mês (sempre todos os meses para tendência) com filtros aplicados
   const receitaPorMes = useMemo(() => {
@@ -141,9 +141,7 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   }, [filtered]);
 
   // Top / bottom produtos
-  const ordenadosPorReceita = [...filtered].sort(
-  (a, b) => (Number(b.receita) || 0) - (Number(a.receita) || 0)
-);
+  const ordenadosPorReceita = [...filtered].sort((a, b) => b.receita - a.receita);
   const topProdutos = ordenadosPorReceita.slice(0, 5);
   const bottomProdutos = [...filtered].sort((a, b) => a.receita - b.receita).slice(0, 5);
 
@@ -153,14 +151,7 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   // Canal distribution
   const porCanal = useMemo(() => {
   const map: Record<string, number> = { Online: 0, Fisico: 0 };
-
-  filtered.forEach((s) => {
-    const canalNormalizado =
-      s.canal === "Online" ? "Online" : "Fisico";
-
-    map[canalNormalizado] += Number(s.receita) || 0;
-  });
-
+  filtered.forEach(s => { map[s.canal] += Number(s.receita); });
   return [
     { name: "Online", value: map.Online },
     { name: "Loja Física", value: map.Fisico },
@@ -263,7 +254,7 @@ if (loading) {
             <CardDescription>Receita mensal realizada e projeção para o próximo mês</CardDescription>
           </CardHeader>
           <CardContent className="h-[320px]">
-            {/*<ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={serieComForecast}>
                 <defs>
                   <linearGradient id="fillReceita" x1="0" y1="0" x2="0" y2="1">
@@ -284,7 +275,7 @@ if (loading) {
                 <Area type="monotone" dataKey="Receita" stroke="var(--chart-1)" strokeWidth={2.5} fill="url(#fillReceita)" />
                 <Area type="monotone" dataKey="Forecast" stroke="var(--chart-2)" strokeWidth={2.5} strokeDasharray="6 4" fill="url(#fillForecast)" />
               </AreaChart>
-            </ResponsiveContainer>*/}
+            </ResponsiveContainer>
           </CardContent>
         </Card>
 
@@ -296,7 +287,7 @@ if (loading) {
               <CardDescription>Distribuição da receita no período filtrado</CardDescription>
             </CardHeader>
             <CardContent className="h-[320px]">
-              {/*<ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={porCategoria} layout="vertical" margin={{ left: 16 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
                   <XAxis type="number" stroke="var(--muted-foreground)" fontSize={12} tickFormatter={(v) => `R$${(v/1000).toFixed(0)}k`} />
@@ -306,7 +297,7 @@ if (loading) {
                     {porCategoria.map((_, i) => <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />)}
                   </Bar>
                 </BarChart>
-              </ResponsiveContainer>*/}
+              </ResponsiveContainer>
             </CardContent>
           </Card>
 
@@ -316,7 +307,7 @@ if (loading) {
               <CardDescription>Online vs Loja Física</CardDescription>
             </CardHeader>
             <CardContent className="h-[320px]">
-              {/*<ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie data={porCanal} dataKey="value" nameKey="name" innerRadius={60} outerRadius={95} paddingAngle={3}>
                     <Cell fill="var(--chart-1)" />
@@ -325,7 +316,7 @@ if (loading) {
                   <Tooltip content={<ChartTooltip />} />
                   <Legend />
                 </PieChart>
-              </ResponsiveContainer>*/}
+              </ResponsiveContainer>
               <div className="flex justify-around text-sm mt-2">
                 <div className="flex items-center gap-2"><Globe className="h-4 w-4 text-primary" />{formatBRL(porCanal[0].value)}</div>
                 <div className="flex items-center gap-2"><Store className="h-4 w-4" style={{ color: "var(--chart-2)" }} />{formatBRL(porCanal[1].value)}</div>
@@ -341,7 +332,7 @@ if (loading) {
             <CardDescription>Comparativo mensal contra a meta de {formatBRL(META_MENSAL)}</CardDescription>
           </CardHeader>
           <CardContent className="h-[300px]">
-            {/*<ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%">
               <BarChart data={metaVsReal}>
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
                 <XAxis dataKey="mes" stroke="var(--muted-foreground)" fontSize={12} />
@@ -355,7 +346,7 @@ if (loading) {
                   ))}
                 </Bar>
               </BarChart>
-            </ResponsiveContainer>*/}
+            </ResponsiveContainer>
           </CardContent>
         </Card>
 
@@ -417,7 +408,7 @@ if (loading) {
               <CardDescription>Top 10 maiores estoques</CardDescription>
             </CardHeader>
             <CardContent className="h-[360px]">
-              {/*<ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={estoque} layout="vertical" margin={{ left: 16 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
                   <XAxis type="number" stroke="var(--muted-foreground)" fontSize={12} />
@@ -425,7 +416,7 @@ if (loading) {
                   <Tooltip content={<ChartTooltip />} />
                   <Bar dataKey="estoque" fill="var(--chart-3)" radius={[0, 6, 6, 0]} />
                 </BarChart>
-              </ResponsiveContainer>*/}
+              </ResponsiveContainer>
             </CardContent>
           </Card>
         </section>

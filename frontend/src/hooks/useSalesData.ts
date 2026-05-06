@@ -1,28 +1,33 @@
 import { useEffect, useState } from "react";
-import type { Sale } from "@/lib/sales-data";
+import { salesData as localSalesData, type Sale } from "../lib/sales-data";
+
+const API_URL = import.meta.env.VITE_API_URL;
 
 export function useSalesData() {
   const [salesData, setSalesData] = useState<Sale[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const API_URL = import.meta.env.VITE_API_URL || "";
-    console.log("API_URL:", API_URL);
+    async function load() {
+      try {
+        const res = await fetch(`${API_URL}/api/vendas/`);
+        const data = await res.json();
 
-    fetch(`${API_URL}/api/vendas/`)
-      .then((res) => res.json())
-      .then((json) => {
-        console.log("DADOS DA API:", json);
-
-        const data = Array.isArray(json) ? json : json.results;
-        setSalesData(data ?? []);
-      })
-      .catch((error) => {
-        console.error("ERRO AO BUSCAR API:", error);
-      })
-      .finally(() => {
+        if (Array.isArray(data) && data.length > 0) {
+          setSalesData(data);
+        } else {
+          console.warn("API vazia. Usando dados locais.");
+          setSalesData(localSalesData);
+        }
+      } catch (error) {
+        console.error("Erro na API. Usando dados locais:", error);
+        setSalesData(localSalesData);
+      } finally {
         setLoading(false);
-      });
+      }
+    }
+
+    load();
   }, []);
 
   return { salesData, loading };
