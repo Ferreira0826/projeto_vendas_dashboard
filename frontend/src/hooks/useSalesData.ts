@@ -8,54 +8,24 @@ export function useSalesData() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    let isMounted = true;
+  setSalesData(localSalesData);
+  setLoading(false);
 
-    async function load() {
-      try {
-        console.log("API_URL:", API_URL);
+  async function loadApi() {
+    try {
+      const res = await fetch(`${API_URL}/api/vendas/`);
+      const data = await res.json();
 
-        if (!API_URL) {
-          console.warn("Sem API_URL. Usando dados locais.");
-          if (isMounted) setSalesData(localSalesData);
-          return;
-        }
-
-        const res = await fetch(`${API_URL}/api/vendas/`);
-
-        if (!res.ok) {
-          throw new Error(`Erro HTTP: ${res.status}`);
-        }
-
-        const data = await res.json();
-
-        console.log("DADOS API:", data);
-
-        if (isMounted) {
-          if (Array.isArray(data) && data.length > 0) {
-            setSalesData(data);
-          } else {
-            setSalesData(localSalesData);
-          }
-        }
-      } catch (error) {
-        console.error("Erro ao carregar dados:", error);
-
-        if (isMounted) {
-          setSalesData(localSalesData);
-        }
-      } finally {
-        if (isMounted) {
-          setLoading(false);
-        }
+      if (Array.isArray(data) && data.length > 0) {
+        setSalesData(data);
       }
+    } catch (error) {
+      console.error("Erro API:", error);
     }
+  }
 
-    load();
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
+  loadApi();
+}, []);
 
   return { salesData, loading };
 }

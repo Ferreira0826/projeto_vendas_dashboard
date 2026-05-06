@@ -100,6 +100,8 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   (canal === "all" || s.canal === canal)
 ), [salesData, periodo, categoria, vendedor, canal]);
 
+console.log({ periodo, categoria, vendedor, canal, totalFiltrado: filtered.length });
+
 // 👇 AQUI sim
   // KPIs
   const receitaTotal = filtered.reduce((a, s) => a + Number(s.receita), 0);
@@ -293,9 +295,10 @@ if (loading) {
                 <XAxis dataKey="mes" stroke="var(--muted-foreground)" fontSize={12} />
                 <YAxis stroke="var(--muted-foreground)" fontSize={12} tickFormatter={(v) => `R$${(v/1000).toFixed(0)}k`} />
                 <Tooltip
-                    content={<ChartTooltip />}
-                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
-                  />
+                  content={<ChartTooltip />}
+                  wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  allowEscapeViewBox={{ x: true, y: true }}
+                />
                 <Legend />
                 <ReferenceLine y={META_MENSAL} stroke="var(--warning)" strokeDasharray="4 4" label={{ value: "Meta", fill: "var(--warning)", fontSize: 11, position: "right" }} />
                 <Area type="monotone" dataKey="Receita" stroke="#4f46e5" strokeWidth={2.5} fill="url(#fillReceita)" />
@@ -321,6 +324,7 @@ if (loading) {
                   <Tooltip
                     content={<ChartTooltip />}
                     wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                    allowEscapeViewBox={{ x: true, y: true }}
                   />
                   <Bar dataKey="value" radius={[0, 8, 8, 0]}>
                     {porCategoria.map((_, i) => <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />)}
@@ -345,6 +349,7 @@ if (loading) {
                   <Tooltip
                     content={<ChartTooltip />}
                     wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                    allowEscapeViewBox={{ x: true, y: true }}
                   />
                   <Legend />
                 </PieChart>
@@ -370,9 +375,10 @@ if (loading) {
                 <XAxis dataKey="mes" stroke="var(--muted-foreground)" fontSize={12} />
                 <YAxis stroke="var(--muted-foreground)" fontSize={12} tickFormatter={(v) => `R$${(v/1000).toFixed(0)}k`} />
                 <Tooltip
-                    content={<ChartTooltip />}
-                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
-                  />
+                  content={<ChartTooltip />}
+                  wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  allowEscapeViewBox={{ x: true, y: true }}
+                />
                 <Legend />
                 <Bar dataKey="Meta" fill="var(--muted)" radius={[6, 6, 0, 0]} />
                 <Bar dataKey="Realizado" radius={[6, 6, 0, 0]}>
@@ -451,6 +457,7 @@ if (loading) {
                   <Tooltip
                     content={<ChartTooltip />}
                     wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                    allowEscapeViewBox={{ x: true, y: true }}
                   />
                   <Bar dataKey="estoque" fill="var(--chart-3)" radius={[0, 6, 6, 0]} />
                 </BarChart>
