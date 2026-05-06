@@ -62,8 +62,13 @@ const MONTH_LABEL: Record<string, string> = {
 };
 
 const CHART_COLORS = [
-  "var(--chart-1)", "var(--chart-2)", "var(--chart-3)", "var(--chart-4)", "var(--chart-5)",
-  "oklch(0.7 0.15 200)", "oklch(0.6 0.18 340)",
+  "#4f46e5",
+  "#7c3aed",
+  "#0ea5e9",
+  "#ec4899",
+  "#6366f1",
+  "#14b8a6",
+  "#f59e0b",
 ];
 
 function ym(d: string) { return d.slice(0, 7); }
@@ -216,7 +221,7 @@ if (loading) {
 
         {/* KPIs */}
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
-          <KpiCard icon={DollarSign} label="Receita Total" value={formatBRL(receitaTotal)} accent />
+          <KpiCard icon={DollarSign} label="Receita Total" value={formatBRLCompact(receitaTotal)} accent />
           <KpiCard icon={ShoppingCart} label="Total de Pedidos" value={formatNumber(totalPedidos)} />
           <KpiCard icon={Package} label="Produtos Vendidos" value={formatNumber(totalProdutos)} />
           <KpiCard icon={Target} label="Ticket Médio" value={formatBRL(ticketMedio)} />
@@ -278,11 +283,14 @@ if (loading) {
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
                 <XAxis dataKey="mes" stroke="var(--muted-foreground)" fontSize={12} />
                 <YAxis stroke="var(--muted-foreground)" fontSize={12} tickFormatter={(v) => `R$${(v/1000).toFixed(0)}k`} />
-                <Tooltip content={<ChartTooltip />} />
+                <Tooltip
+                    content={<ChartTooltip />}
+                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  />
                 <Legend />
                 <ReferenceLine y={META_MENSAL} stroke="var(--warning)" strokeDasharray="4 4" label={{ value: "Meta", fill: "var(--warning)", fontSize: 11, position: "right" }} />
-                <Area type="monotone" dataKey="Receita" stroke="var(--chart-1)" strokeWidth={2.5} fill="url(#fillReceita)" />
-                <Area type="monotone" dataKey="Forecast" stroke="var(--chart-2)" strokeWidth={2.5} strokeDasharray="6 4" fill="url(#fillForecast)" />
+                <Area type="monotone" dataKey="Receita" stroke="#4f46e5" strokeWidth={2.5} fill="url(#fillReceita)" />
+                <Area type="monotone" dataKey="Forecast" stroke="#7c3aed" strokeWidth={2.5} strokeDasharray="6 4" fill="url(#fillForecast)" />
               </AreaChart>
             </ResponsiveContainer>
           </CardContent>
@@ -301,7 +309,10 @@ if (loading) {
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
                   <XAxis type="number" stroke="var(--muted-foreground)" fontSize={12} tickFormatter={(v) => `R$${(v/1000).toFixed(0)}k`} />
                   <YAxis type="category" dataKey="name" stroke="var(--muted-foreground)" fontSize={12} width={110} />
-                  <Tooltip content={<ChartTooltip />} />
+                  <Tooltip
+                    content={<ChartTooltip />}
+                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  />
                   <Bar dataKey="value" radius={[0, 8, 8, 0]}>
                     {porCategoria.map((_, i) => <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />)}
                   </Bar>
@@ -319,10 +330,13 @@ if (loading) {
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie data={porCanal} dataKey="value" nameKey="name" innerRadius={60} outerRadius={95} paddingAngle={3}>
-                    <Cell fill="var(--chart-1)" />
+                    <Cell fill="#4f46e5" />
                     <Cell fill="var(--chart-2)" />
                   </Pie>
-                  <Tooltip content={<ChartTooltip />} />
+                  <Tooltip
+                    content={<ChartTooltip />}
+                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  />
                   <Legend />
                 </PieChart>
               </ResponsiveContainer>
@@ -346,7 +360,10 @@ if (loading) {
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
                 <XAxis dataKey="mes" stroke="var(--muted-foreground)" fontSize={12} />
                 <YAxis stroke="var(--muted-foreground)" fontSize={12} tickFormatter={(v) => `R$${(v/1000).toFixed(0)}k`} />
-                <Tooltip content={<ChartTooltip />} />
+                <Tooltip
+                    content={<ChartTooltip />}
+                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  />
                 <Legend />
                 <Bar dataKey="Meta" fill="var(--muted)" radius={[6, 6, 0, 0]} />
                 <Bar dataKey="Realizado" radius={[6, 6, 0, 0]}>
@@ -422,7 +439,10 @@ if (loading) {
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
                   <XAxis type="number" stroke="var(--muted-foreground)" fontSize={12} />
                   <YAxis type="category" dataKey="produto" stroke="var(--muted-foreground)" fontSize={11} width={150} />
-                  <Tooltip content={<ChartTooltip />} />
+                  <Tooltip
+                    content={<ChartTooltip />}
+                    wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
+                  />
                   <Bar dataKey="estoque" fill="var(--chart-3)" radius={[0, 6, 6, 0]} />
                 </BarChart>
               </ResponsiveContainer>

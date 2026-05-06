@@ -8,27 +8,33 @@ export function useSalesData() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function load() {
-      try {
-        const res = await fetch(`${API_URL}/api/vendas/`);
-        const data = await res.json();
+  async function load() {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
 
-        if (Array.isArray(data) && data.length > 0) {
-          setSalesData(data);
-        } else {
-          console.warn("API vazia. Usando dados locais.");
-          setSalesData(localSalesData);
-        }
-      } catch (error) {
-        console.error("Erro na API. Usando dados locais:", error);
+    try {
+      const res = await fetch(`${API_URL}/api/vendas/`, {
+        signal: controller.signal,
+      });
+
+      const data = await res.json();
+
+      if (Array.isArray(data) && data.length > 0) {
+        setSalesData(data);
+      } else {
         setSalesData(localSalesData);
-      } finally {
-        setLoading(false);
       }
+    } catch (error) {
+      console.error("Erro ao carregar API. Usando dados locais:", error);
+      setSalesData(localSalesData);
+    } finally {
+      clearTimeout(timeout);
+      setLoading(false);
     }
+  }
 
-    load();
-  }, []);
+  load();
+}, []);
 
   return { salesData, loading };
 }
