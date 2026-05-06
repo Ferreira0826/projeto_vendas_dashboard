@@ -10,7 +10,7 @@
     "estoque": 313,
     "vendas": 138,
     "receita": "248400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-06-11"
   }
@@ -36,7 +36,7 @@
   "pk": 805,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 398,
@@ -68,7 +68,7 @@
   "pk": 807,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 279,
@@ -132,7 +132,7 @@
   "pk": 811,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 77,
@@ -154,7 +154,7 @@
     "estoque": 248,
     "vendas": 78,
     "receita": "273000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-02-26"
   }
@@ -180,7 +180,7 @@
   "pk": 814,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 179,
@@ -196,7 +196,7 @@
   "pk": 815,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 338,
@@ -308,13 +308,13 @@
   "pk": 822,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 145,
     "vendas": 142,
     "receita": "639000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-07-12"
   }
@@ -346,7 +346,7 @@
     "estoque": 30,
     "vendas": 114,
     "receita": "1083000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-05-09"
   }
@@ -356,7 +356,7 @@
   "pk": 825,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 340,
@@ -404,7 +404,7 @@
   "pk": 828,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 351,
@@ -436,7 +436,7 @@
   "pk": 830,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 353,
@@ -452,13 +452,13 @@
   "pk": 831,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 65,
     "vendas": 9,
     "receita": "40500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-04-20"
   }
@@ -468,13 +468,13 @@
   "pk": 832,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 36,
     "vendas": 131,
     "receita": "524000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-14"
   }
@@ -484,7 +484,7 @@
   "pk": 833,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 362,
@@ -538,7 +538,7 @@
     "estoque": 74,
     "vendas": 75,
     "receita": "337500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-05-22"
   }
@@ -564,7 +564,7 @@
   "pk": 838,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 321,
@@ -644,7 +644,7 @@
   "pk": 843,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 98,
@@ -692,7 +692,7 @@
   "pk": 846,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 12,
@@ -756,7 +756,7 @@
   "pk": 850,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 370,
@@ -772,7 +772,7 @@
   "pk": 851,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 130,
@@ -788,13 +788,13 @@
   "pk": 852,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 342,
     "vendas": 41,
     "receita": "16400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-07"
   }
@@ -868,7 +868,7 @@
   "pk": 857,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 224,
@@ -884,7 +884,7 @@
   "pk": 858,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 254,
@@ -964,7 +964,7 @@
   "pk": 863,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 148,
@@ -996,7 +996,7 @@
   "pk": 865,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 339,
@@ -1076,7 +1076,7 @@
   "pk": 870,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 140,
@@ -1098,7 +1098,7 @@
     "estoque": 22,
     "vendas": 134,
     "receita": "1273000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-05-24"
   }
@@ -1108,13 +1108,13 @@
   "pk": 872,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 337,
     "vendas": 96,
     "receita": "38400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-03-26"
   }
@@ -1124,7 +1124,7 @@
   "pk": 873,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 186,
@@ -1140,13 +1140,13 @@
   "pk": 874,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 88,
     "vendas": 31,
     "receita": "99200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-18"
   }
@@ -1178,7 +1178,7 @@
     "estoque": 140,
     "vendas": 111,
     "receita": "199800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-05-23"
   }
@@ -1194,7 +1194,7 @@
     "estoque": 77,
     "vendas": 108,
     "receita": "410400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-12-06"
   }
@@ -1236,7 +1236,7 @@
   "pk": 880,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 285,
@@ -1258,7 +1258,7 @@
     "estoque": 95,
     "vendas": 90,
     "receita": "468000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-02-20"
   }
@@ -1316,7 +1316,7 @@
   "pk": 885,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 236,
@@ -1380,7 +1380,7 @@
   "pk": 889,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 37,
@@ -1412,7 +1412,7 @@
   "pk": 891,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 273,
@@ -1460,7 +1460,7 @@
   "pk": 894,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 307,
@@ -1572,7 +1572,7 @@
   "pk": 901,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 108,
@@ -1690,7 +1690,7 @@
     "estoque": 242,
     "vendas": 143,
     "receita": "457600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-09-10"
   }
@@ -1732,13 +1732,13 @@
   "pk": 911,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 117,
     "vendas": 8,
     "receita": "32000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-03-17"
   }
@@ -1748,7 +1748,7 @@
   "pk": 912,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 156,
@@ -1786,7 +1786,7 @@
     "estoque": 195,
     "vendas": 148,
     "receita": "621600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-07-18"
   }
@@ -1898,7 +1898,7 @@
     "estoque": 175,
     "vendas": 112,
     "receita": "201600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-06-06"
   }
@@ -1908,7 +1908,7 @@
   "pk": 922,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 211,
@@ -2020,13 +2020,13 @@
   "pk": 929,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 368,
     "vendas": 143,
     "receita": "643500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-07-03"
   }
@@ -2042,7 +2042,7 @@
     "estoque": 84,
     "vendas": 68,
     "receita": "81600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-05-01"
   }
@@ -2100,7 +2100,7 @@
   "pk": 934,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 234,
@@ -2116,7 +2116,7 @@
   "pk": 935,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 54,
@@ -2186,7 +2186,7 @@
     "estoque": 394,
     "vendas": 5,
     "receita": "2500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-07-30"
   }
@@ -2420,7 +2420,7 @@
   "pk": 954,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 289,
@@ -2436,7 +2436,7 @@
   "pk": 955,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 77,
@@ -2474,7 +2474,7 @@
     "estoque": 374,
     "vendas": 58,
     "receita": "203000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-05-31"
   }
@@ -2522,7 +2522,7 @@
     "estoque": 387,
     "vendas": 129,
     "receita": "490200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-06-18"
   }
@@ -2548,7 +2548,7 @@
   "pk": 962,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 14,
@@ -2570,7 +2570,7 @@
     "estoque": 40,
     "vendas": 139,
     "receita": "48650.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-07-10"
   }
@@ -2612,7 +2612,7 @@
   "pk": 966,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 71,
@@ -2634,7 +2634,7 @@
     "estoque": 343,
     "vendas": 100,
     "receita": "520000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-10"
   }
@@ -2682,7 +2682,7 @@
     "estoque": 132,
     "vendas": 23,
     "receita": "87400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-02-28"
   }
@@ -2708,7 +2708,7 @@
   "pk": 972,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 161,
@@ -2730,7 +2730,7 @@
     "estoque": 158,
     "vendas": 77,
     "receita": "462000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-08-20"
   }
@@ -2756,13 +2756,13 @@
   "pk": 975,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 225,
     "vendas": 37,
     "receita": "148000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-11-20"
   }
@@ -2820,7 +2820,7 @@
   "pk": 979,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 349,
@@ -2852,7 +2852,7 @@
   "pk": 981,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 273,
@@ -2906,7 +2906,7 @@
     "estoque": 114,
     "vendas": 49,
     "receita": "17150.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-05-08"
   }
@@ -2938,7 +2938,7 @@
     "estoque": 294,
     "vendas": 5,
     "receita": "26000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-10-02"
   }
@@ -2948,7 +2948,7 @@
   "pk": 987,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 62,
@@ -3076,13 +3076,13 @@
   "pk": 995,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 78,
     "vendas": 41,
     "receita": "184500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-02-28"
   }
@@ -3130,7 +3130,7 @@
     "estoque": 18,
     "vendas": 127,
     "receita": "406400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-12-08"
   }
@@ -3162,7 +3162,7 @@
     "estoque": 93,
     "vendas": 103,
     "receita": "391400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-02-20"
   }
@@ -3204,7 +3204,7 @@
   "pk": 1003,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 131,
@@ -3236,13 +3236,13 @@
   "pk": 1005,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 205,
     "vendas": 117,
     "receita": "374400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-11-15"
   }
@@ -3354,7 +3354,7 @@
     "estoque": 186,
     "vendas": 48,
     "receita": "288000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-01-22"
   }
@@ -3412,7 +3412,7 @@
   "pk": 1016,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 113,
@@ -3476,7 +3476,7 @@
   "pk": 1020,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 154,
@@ -3514,7 +3514,7 @@
     "estoque": 43,
     "vendas": 60,
     "receita": "36000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-06-20"
   }
@@ -3604,7 +3604,7 @@
   "pk": 1028,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 123,
@@ -3620,7 +3620,7 @@
   "pk": 1029,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 147,
@@ -3684,7 +3684,7 @@
   "pk": 1033,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 239,
@@ -3706,7 +3706,7 @@
     "estoque": 120,
     "vendas": 98,
     "receita": "34300.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-12-18"
   }
@@ -3732,7 +3732,7 @@
   "pk": 1036,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 127,
@@ -3786,7 +3786,7 @@
     "estoque": 279,
     "vendas": 32,
     "receita": "70400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-02-24"
   }
@@ -3834,7 +3834,7 @@
     "estoque": 373,
     "vendas": 8,
     "receita": "76000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-02-10"
   }
@@ -3866,7 +3866,7 @@
     "estoque": 14,
     "vendas": 63,
     "receita": "239400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-11-19"
   }
@@ -3892,13 +3892,13 @@
   "pk": 1046,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 391,
     "vendas": 104,
     "receita": "332800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-11-27"
   }
@@ -4052,7 +4052,7 @@
   "pk": 1056,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 83,
@@ -4068,7 +4068,7 @@
   "pk": 1057,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 15,
@@ -4100,7 +4100,7 @@
   "pk": 1059,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 120,
@@ -4196,13 +4196,13 @@
   "pk": 1065,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 256,
     "vendas": 79,
     "receita": "31600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-11-02"
   }
@@ -4228,7 +4228,7 @@
   "pk": 1067,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 97,
@@ -4244,7 +4244,7 @@
   "pk": 1068,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 178,
@@ -4266,7 +4266,7 @@
     "estoque": 269,
     "vendas": 136,
     "receita": "476000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-07-15"
   }
@@ -4340,7 +4340,7 @@
   "pk": 1074,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 119,
@@ -4378,7 +4378,7 @@
     "estoque": 86,
     "vendas": 34,
     "receita": "119000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-04-01"
   }
@@ -4388,7 +4388,7 @@
   "pk": 1077,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 219,
@@ -4436,7 +4436,7 @@
   "pk": 1080,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 162,
@@ -4522,7 +4522,7 @@
     "estoque": 75,
     "vendas": 92,
     "receita": "322000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-05-04"
   }
@@ -4586,7 +4586,7 @@
     "estoque": 127,
     "vendas": 18,
     "receita": "171000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-01-19"
   }
@@ -4596,7 +4596,7 @@
   "pk": 1090,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 12,
@@ -4634,7 +4634,7 @@
     "estoque": 271,
     "vendas": 130,
     "receita": "780000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-12-23"
   }
@@ -4676,7 +4676,7 @@
   "pk": 1095,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 114,
@@ -4708,7 +4708,7 @@
   "pk": 1097,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 264,
@@ -4778,7 +4778,7 @@
     "estoque": 10,
     "vendas": 23,
     "receita": "218500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-06-03"
   }
@@ -4804,7 +4804,7 @@
   "pk": 1103,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 209,
@@ -4852,13 +4852,13 @@
   "pk": 1106,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 220,
     "vendas": 18,
     "receita": "7200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-07-16"
   }
@@ -4868,7 +4868,7 @@
   "pk": 1107,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 393,
@@ -4900,7 +4900,7 @@
   "pk": 1109,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 179,
@@ -4948,7 +4948,7 @@
   "pk": 1112,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 149,
@@ -4996,7 +4996,7 @@
   "pk": 1115,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 28,
@@ -5012,7 +5012,7 @@
   "pk": 1116,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 321,
@@ -5114,7 +5114,7 @@
     "estoque": 360,
     "vendas": 75,
     "receita": "90000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-08-04"
   }
@@ -5140,7 +5140,7 @@
   "pk": 1124,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 378,
@@ -5226,7 +5226,7 @@
     "estoque": 399,
     "vendas": 18,
     "receita": "63000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-04-18"
   }
@@ -5300,7 +5300,7 @@
   "pk": 1134,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 118,
@@ -5348,7 +5348,7 @@
   "pk": 1137,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 171,
@@ -5428,7 +5428,7 @@
   "pk": 1142,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 263,
@@ -5444,13 +5444,13 @@
   "pk": 1143,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 385,
     "vendas": 23,
     "receita": "10350.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-01-19"
   }
@@ -5514,7 +5514,7 @@
     "estoque": 255,
     "vendas": 27,
     "receita": "32400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-07-13"
   }
@@ -5642,7 +5642,7 @@
     "estoque": 249,
     "vendas": 80,
     "receita": "28000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-02-21"
   }
@@ -5658,7 +5658,7 @@
     "estoque": 354,
     "vendas": 98,
     "receita": "49000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-09-07"
   }
@@ -5700,7 +5700,7 @@
   "pk": 1159,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 41,
@@ -5716,7 +5716,7 @@
   "pk": 1160,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 123,
@@ -5802,7 +5802,7 @@
     "estoque": 77,
     "vendas": 30,
     "receita": "180000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-04-29"
   }
@@ -5844,7 +5844,7 @@
   "pk": 1168,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 302,
@@ -5860,7 +5860,7 @@
   "pk": 1169,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 18,
@@ -5908,7 +5908,7 @@
   "pk": 1172,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 129,
@@ -5962,7 +5962,7 @@
     "estoque": 278,
     "vendas": 24,
     "receita": "52800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-03-28"
   }
@@ -6020,7 +6020,7 @@
   "pk": 1179,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 106,
@@ -6052,7 +6052,7 @@
   "pk": 1181,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 298,
@@ -6122,7 +6122,7 @@
     "estoque": 257,
     "vendas": 80,
     "receita": "336000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-10-18"
   }
@@ -6164,7 +6164,7 @@
   "pk": 1188,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 209,
@@ -6180,7 +6180,7 @@
   "pk": 1189,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 297,
@@ -6244,13 +6244,13 @@
   "pk": 1193,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 395,
     "vendas": 65,
     "receita": "208000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-07-21"
   }
@@ -6266,7 +6266,7 @@
     "estoque": 258,
     "vendas": 37,
     "receita": "18500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-04-24"
   }
@@ -6276,7 +6276,7 @@
   "pk": 1195,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 96,
@@ -6292,7 +6292,7 @@
   "pk": 1196,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 348,
@@ -6362,7 +6362,7 @@
     "estoque": 212,
     "vendas": 33,
     "receita": "125400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-01-18"
   }
@@ -6372,13 +6372,13 @@
   "pk": 1201,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 44,
     "vendas": 90,
     "receita": "288000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-08-05"
   }
@@ -6410,7 +6410,7 @@
     "estoque": 264,
     "vendas": 121,
     "receita": "508200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-03-28"
   }
@@ -6452,7 +6452,7 @@
   "pk": 1206,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 385,
@@ -6468,7 +6468,7 @@
   "pk": 1207,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 14,
@@ -6484,7 +6484,7 @@
   "pk": 1208,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 342,
@@ -6500,7 +6500,7 @@
   "pk": 1209,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 92,
@@ -6580,13 +6580,13 @@
   "pk": 1214,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 85,
     "vendas": 29,
     "receita": "116000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-07-12"
   }
@@ -6612,7 +6612,7 @@
   "pk": 1216,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 47,
@@ -6644,7 +6644,7 @@
   "pk": 1218,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 118,
@@ -6666,7 +6666,7 @@
     "estoque": 303,
     "vendas": 92,
     "receita": "46000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-02-05"
   }
@@ -6708,7 +6708,7 @@
   "pk": 1222,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 83,
@@ -6746,7 +6746,7 @@
     "estoque": 199,
     "vendas": 76,
     "receita": "266000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-10-02"
   }
@@ -6772,7 +6772,7 @@
   "pk": 1226,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 145,
@@ -6820,7 +6820,7 @@
   "pk": 1229,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 209,
@@ -6836,7 +6836,7 @@
   "pk": 1230,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 268,
@@ -6980,7 +6980,7 @@
   "pk": 1239,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 356,
@@ -7012,7 +7012,7 @@
   "pk": 1241,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 143,
@@ -7028,13 +7028,13 @@
   "pk": 1242,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 244,
     "vendas": 87,
     "receita": "34800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-04-11"
   }
@@ -7044,7 +7044,7 @@
   "pk": 1243,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 248,
@@ -7076,7 +7076,7 @@
   "pk": 1245,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 34,
@@ -7092,7 +7092,7 @@
   "pk": 1246,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 158,
@@ -7140,7 +7140,7 @@
   "pk": 1249,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 109,
@@ -7178,7 +7178,7 @@
     "estoque": 247,
     "vendas": 105,
     "receita": "367500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-10-27"
   }
@@ -7290,7 +7290,7 @@
     "estoque": 261,
     "vendas": 92,
     "receita": "110400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-04-16"
   }
@@ -7300,7 +7300,7 @@
   "pk": 1259,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 53,
@@ -7332,7 +7332,7 @@
   "pk": 1261,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 244,
@@ -7386,7 +7386,7 @@
     "estoque": 283,
     "vendas": 74,
     "receita": "236800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-05-04"
   }
@@ -7434,7 +7434,7 @@
     "estoque": 271,
     "vendas": 91,
     "receita": "318500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-11-29"
   }
@@ -7482,7 +7482,7 @@
     "estoque": 343,
     "vendas": 60,
     "receita": "108000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-03-13"
   }
@@ -7492,7 +7492,7 @@
   "pk": 1271,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 255,
@@ -7556,7 +7556,7 @@
   "pk": 1275,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 112,
@@ -7594,7 +7594,7 @@
     "estoque": 62,
     "vendas": 18,
     "receita": "57600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-04-07"
   }
@@ -7620,7 +7620,7 @@
   "pk": 1279,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 231,
@@ -7642,7 +7642,7 @@
     "estoque": 159,
     "vendas": 140,
     "receita": "532000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-07-18"
   }
@@ -7658,7 +7658,7 @@
     "estoque": 35,
     "vendas": 50,
     "receita": "210000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-11-22"
   }
@@ -7716,7 +7716,7 @@
   "pk": 1285,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 382,
@@ -7732,13 +7732,13 @@
   "pk": 1286,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 308,
     "vendas": 36,
     "receita": "162000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-09-11"
   }
@@ -7770,7 +7770,7 @@
     "estoque": 273,
     "vendas": 75,
     "receita": "135000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-11-16"
   }
@@ -7780,7 +7780,7 @@
   "pk": 1289,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 181,
@@ -7796,7 +7796,7 @@
   "pk": 1290,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 248,
@@ -7844,7 +7844,7 @@
   "pk": 1293,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 117,
@@ -7882,7 +7882,7 @@
     "estoque": 227,
     "vendas": 109,
     "receita": "54500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-16"
   }
@@ -7898,7 +7898,7 @@
     "estoque": 332,
     "vendas": 15,
     "receita": "57000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-06-28"
   }
@@ -7908,7 +7908,7 @@
   "pk": 1297,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 180,
@@ -7956,13 +7956,13 @@
   "pk": 1300,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 83,
     "vendas": 123,
     "receita": "49200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-03-02"
   }
@@ -7972,7 +7972,7 @@
   "pk": 1301,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 48,
@@ -8020,7 +8020,7 @@
   "pk": 1304,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 385,
@@ -8116,7 +8116,7 @@
   "pk": 1310,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 238,
@@ -8154,7 +8154,7 @@
     "estoque": 301,
     "vendas": 101,
     "receita": "181800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-08"
   }
@@ -8218,7 +8218,7 @@
     "estoque": 360,
     "vendas": 45,
     "receita": "81000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-02-24"
   }
@@ -8298,7 +8298,7 @@
     "estoque": 207,
     "vendas": 95,
     "receita": "494000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-03-05"
   }
@@ -8340,7 +8340,7 @@
   "pk": 1324,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 126,
@@ -8356,7 +8356,7 @@
   "pk": 1325,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 102,
@@ -8420,7 +8420,7 @@
   "pk": 1329,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 127,
@@ -8436,7 +8436,7 @@
   "pk": 1330,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 40,
@@ -8452,7 +8452,7 @@
   "pk": 1331,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 316,
@@ -8516,7 +8516,7 @@
   "pk": 1335,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 341,
@@ -8532,13 +8532,13 @@
   "pk": 1336,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 334,
     "vendas": 99,
     "receita": "316800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-07-17"
   }
@@ -8618,7 +8618,7 @@
     "estoque": 40,
     "vendas": 18,
     "receita": "10800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-12-15"
   }
@@ -8628,7 +8628,7 @@
   "pk": 1342,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 113,
@@ -8714,7 +8714,7 @@
     "estoque": 36,
     "vendas": 96,
     "receita": "211200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-01-04"
   }
@@ -8778,7 +8778,7 @@
     "estoque": 370,
     "vendas": 140,
     "receita": "168000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-09-24"
   }
@@ -8842,7 +8842,7 @@
     "estoque": 312,
     "vendas": 85,
     "receita": "297500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-04-04"
   }
@@ -8868,7 +8868,7 @@
   "pk": 1357,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 181,
@@ -8900,7 +8900,7 @@
   "pk": 1359,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 146,
@@ -8938,7 +8938,7 @@
     "estoque": 279,
     "vendas": 5,
     "receita": "3000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-11-05"
   }
@@ -8948,13 +8948,13 @@
   "pk": 1362,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 68,
     "vendas": 63,
     "receita": "25200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-04-04"
   }
@@ -8964,13 +8964,13 @@
   "pk": 1363,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 315,
     "vendas": 131,
     "receita": "58950.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-01-18"
   }
@@ -8980,7 +8980,7 @@
   "pk": 1364,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 376,
@@ -9028,7 +9028,7 @@
   "pk": 1367,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 112,
@@ -9066,7 +9066,7 @@
     "estoque": 59,
     "vendas": 57,
     "receita": "541500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-12-03"
   }
@@ -9220,7 +9220,7 @@
   "pk": 1379,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 175,
@@ -9268,7 +9268,7 @@
   "pk": 1382,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 206,
@@ -9338,7 +9338,7 @@
     "estoque": 293,
     "vendas": 95,
     "receita": "47500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-11-14"
   }
@@ -9380,7 +9380,7 @@
   "pk": 1389,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 103,
@@ -9396,7 +9396,7 @@
   "pk": 1390,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 235,
@@ -9418,7 +9418,7 @@
     "estoque": 318,
     "vendas": 130,
     "receita": "234000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-03-07"
   }
@@ -9492,7 +9492,7 @@
   "pk": 1396,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 271,
@@ -9508,7 +9508,7 @@
   "pk": 1397,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 65,
@@ -9620,7 +9620,7 @@
   "pk": 1404,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 166,
@@ -9636,7 +9636,7 @@
   "pk": 1405,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 173,
@@ -9652,7 +9652,7 @@
   "pk": 1406,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 99,
@@ -9668,7 +9668,7 @@
   "pk": 1407,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 191,
@@ -9732,7 +9732,7 @@
   "pk": 1411,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 302,
@@ -9748,7 +9748,7 @@
   "pk": 1412,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 319,
@@ -9796,13 +9796,13 @@
   "pk": 1415,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 255,
     "vendas": 138,
     "receita": "552000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-03-11"
   }
@@ -9828,13 +9828,13 @@
   "pk": 1417,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 317,
     "vendas": 53,
     "receita": "169600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-08-30"
   }
@@ -9866,7 +9866,7 @@
     "estoque": 86,
     "vendas": 97,
     "receita": "407400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-09-30"
   }
@@ -9892,7 +9892,7 @@
   "pk": 1421,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 244,
@@ -9914,7 +9914,7 @@
     "estoque": 346,
     "vendas": 33,
     "receita": "198000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-10-06"
   }
@@ -9924,7 +9924,7 @@
   "pk": 1423,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 338,
@@ -9946,7 +9946,7 @@
     "estoque": 42,
     "vendas": 131,
     "receita": "235800.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-03-05"
   }
@@ -10036,7 +10036,7 @@
   "pk": 1430,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 42,
@@ -10052,7 +10052,7 @@
   "pk": 1431,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 397,
@@ -10138,7 +10138,7 @@
     "estoque": 18,
     "vendas": 45,
     "receita": "15750.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-04-04"
   }
@@ -10196,7 +10196,7 @@
   "pk": 1440,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 175,
@@ -10212,7 +10212,7 @@
   "pk": 1441,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 176,
@@ -10234,7 +10234,7 @@
     "estoque": 293,
     "vendas": 130,
     "receita": "78000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-06-01"
   }
@@ -10276,7 +10276,7 @@
   "pk": 1445,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 39,
@@ -10308,7 +10308,7 @@
   "pk": 1447,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 191,
@@ -10362,7 +10362,7 @@
     "estoque": 322,
     "vendas": 12,
     "receita": "62400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-03-27"
   }
@@ -10410,7 +10410,7 @@
     "estoque": 292,
     "vendas": 58,
     "receita": "551000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-04-22"
   }
@@ -10442,7 +10442,7 @@
     "estoque": 243,
     "vendas": 22,
     "receita": "7700.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-03-23"
   }
@@ -10500,7 +10500,7 @@
   "pk": 1459,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 259,
@@ -10516,13 +10516,13 @@
   "pk": 1460,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 296,
     "vendas": 100,
     "receita": "450000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-01-20"
   }
@@ -10532,7 +10532,7 @@
   "pk": 1461,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 341,
@@ -10570,7 +10570,7 @@
     "estoque": 279,
     "vendas": 145,
     "receita": "652500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-06-07"
   }
@@ -10586,7 +10586,7 @@
     "estoque": 373,
     "vendas": 104,
     "receita": "988000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-11-10"
   }
@@ -10676,7 +10676,7 @@
   "pk": 1470,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 278,
@@ -10756,7 +10756,7 @@
   "pk": 1475,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 121,
@@ -10772,7 +10772,7 @@
   "pk": 1476,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 304,
@@ -10836,7 +10836,7 @@
   "pk": 1480,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 280,
@@ -10916,7 +10916,7 @@
   "pk": 1485,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 129,
@@ -10986,7 +10986,7 @@
     "estoque": 171,
     "vendas": 48,
     "receita": "24000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-12-06"
   }
@@ -10996,13 +10996,13 @@
   "pk": 1490,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 176,
     "vendas": 122,
     "receita": "390400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-03-03"
   }
@@ -11044,7 +11044,7 @@
   "pk": 1493,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 63,
@@ -11066,7 +11066,7 @@
     "estoque": 348,
     "vendas": 66,
     "receita": "297000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-04-17"
   }
@@ -11098,7 +11098,7 @@
     "estoque": 191,
     "vendas": 139,
     "receita": "486500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-06-15"
   }
@@ -11140,7 +11140,7 @@
   "pk": 1499,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 368,
@@ -11172,7 +11172,7 @@
   "pk": 1501,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 141,
@@ -11204,7 +11204,7 @@
   "pk": 1503,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 370,
@@ -11322,7 +11322,7 @@
     "estoque": 319,
     "vendas": 144,
     "receita": "648000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-10-31"
   }
@@ -11380,7 +11380,7 @@
   "pk": 1514,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 30,
@@ -11418,7 +11418,7 @@
     "estoque": 146,
     "vendas": 61,
     "receita": "73200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-11-20"
   }
@@ -11434,7 +11434,7 @@
     "estoque": 276,
     "vendas": 147,
     "receita": "1396500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-02-24"
   }
@@ -11524,7 +11524,7 @@
   "pk": 1523,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 283,
@@ -11546,7 +11546,7 @@
     "estoque": 117,
     "vendas": 104,
     "receita": "364000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-01-17"
   }
@@ -11588,7 +11588,7 @@
   "pk": 1527,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 147,
@@ -11652,7 +11652,7 @@
   "pk": 1531,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 225,
@@ -11668,13 +11668,13 @@
   "pk": 1532,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 114,
     "vendas": 32,
     "receita": "144000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-01-26"
   }
@@ -11690,7 +11690,7 @@
     "estoque": 195,
     "vendas": 57,
     "receita": "239400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-15"
   }
@@ -11700,7 +11700,7 @@
   "pk": 1534,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 87,
@@ -11764,13 +11764,13 @@
   "pk": 1538,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 338,
     "vendas": 16,
     "receita": "7200.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-01-31"
   }
@@ -11796,7 +11796,7 @@
   "pk": 1540,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 324,
@@ -11834,7 +11834,7 @@
     "estoque": 301,
     "vendas": 88,
     "receita": "158400.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-02-18"
   }
@@ -11860,7 +11860,7 @@
   "pk": 1544,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 367,
@@ -11876,13 +11876,13 @@
   "pk": 1545,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 133,
     "vendas": 100,
     "receita": "400000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-05-07"
   }
@@ -11924,7 +11924,7 @@
   "pk": 1548,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 158,
@@ -11940,13 +11940,13 @@
   "pk": 1549,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 120,
     "vendas": 62,
     "receita": "248000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-10-10"
   }
@@ -12036,7 +12036,7 @@
   "pk": 1555,
   "fields": {
     "sku": "SKU016",
-    "produto": "Placa de V�deo RTX 4060",
+    "produto": "Placa de Vídeo RTX 4060",
     "categoria": "Componentes",
     "preco": "3200.00",
     "estoque": 349,
@@ -12068,7 +12068,7 @@
   "pk": 1557,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 185,
@@ -12138,7 +12138,7 @@
     "estoque": 256,
     "vendas": 115,
     "receita": "57500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2025-04-11"
   }
@@ -12154,7 +12154,7 @@
     "estoque": 310,
     "vendas": 106,
     "receita": "371000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-01"
   }
@@ -12186,7 +12186,7 @@
     "estoque": 357,
     "vendas": 101,
     "receita": "454500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-01-13"
   }
@@ -12202,7 +12202,7 @@
     "estoque": 400,
     "vendas": 27,
     "receita": "256500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Fisico",
     "data": "2026-06-23"
   }
@@ -12250,7 +12250,7 @@
     "estoque": 339,
     "vendas": 75,
     "receita": "45000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-06-23"
   }
@@ -12266,7 +12266,7 @@
     "estoque": 384,
     "vendas": 123,
     "receita": "43050.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-04-27"
   }
@@ -12276,7 +12276,7 @@
   "pk": 1570,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 173,
@@ -12308,7 +12308,7 @@
   "pk": 1572,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 167,
@@ -12340,7 +12340,7 @@
   "pk": 1574,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 198,
@@ -12356,7 +12356,7 @@
   "pk": 1575,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 376,
@@ -12394,7 +12394,7 @@
     "estoque": 45,
     "vendas": 108,
     "receita": "237600.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-02-14"
   }
@@ -12420,13 +12420,13 @@
   "pk": 1579,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 134,
     "vendas": 146,
     "receita": "584000.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-10-28"
   }
@@ -12458,7 +12458,7 @@
     "estoque": 92,
     "vendas": 63,
     "receita": "283500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2026-04-19"
   }
@@ -12596,7 +12596,7 @@
   "pk": 1590,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 34,
@@ -12634,7 +12634,7 @@
     "estoque": 189,
     "vendas": 27,
     "receita": "94500.00",
-    "vendedor": "Jo�o",
+    "vendedor": "João",
     "canal": "Online",
     "data": "2025-03-02"
   }
@@ -12692,7 +12692,7 @@
   "pk": 1596,
   "fields": {
     "sku": "SKU015",
-    "produto": "Mem�ria RAM 16GB",
+    "produto": "Memória RAM 16GB",
     "categoria": "Componentes",
     "preco": "400.00",
     "estoque": 292,
@@ -12740,7 +12740,7 @@
   "pk": 1599,
   "fields": {
     "sku": "SKU017",
-    "produto": "Placa de V�deo RTX 4070",
+    "produto": "Placa de Vídeo RTX 4070",
     "categoria": "Componentes",
     "preco": "4500.00",
     "estoque": 356,
@@ -12772,7 +12772,7 @@
   "pk": 1601,
   "fields": {
     "sku": "SKU006",
-    "produto": "iPad 10� Gera��o",
+    "produto": "iPad 10ª Geração",
     "categoria": "Tablet",
     "preco": "4000.00",
     "estoque": 56,
@@ -12788,7 +12788,7 @@
   "pk": 1602,
   "fields": {
     "sku": "SKU009",
-    "produto": "Teclado Mec�nico Redragon",
+    "produto": "Teclado Mecânico Redragon",
     "categoria": "Acessorios",
     "preco": "450.00",
     "estoque": 60,
