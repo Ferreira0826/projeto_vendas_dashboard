@@ -90,8 +90,8 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   // KPIs
   const receitaTotal = filtered.reduce((a, s) => a + Number(s.receita), 0);
   const totalPedidos = filtered.length;
-  const totalProdutos = filtered.reduce((a, s) => a + s.vendas, 0);
-  const ticketMedio = totalProdutos ? receitaTotal / totalPedidos : 0;
+  const totalProdutos = filtered.reduce((a, s) => a + (Number(s.vendas) || 0), 0);
+  const ticketMedio = totalPedidos ? receitaTotal / totalPedidos : 0;
 
   // Receita por mês (sempre todos os meses para tendência) com filtros aplicados
   const receitaPorMes = useMemo(() => {
@@ -141,7 +141,9 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   }, [filtered]);
 
   // Top / bottom produtos
-  const ordenadosPorReceita = [...filtered].sort((a, b) => b.receita - a.receita);
+  const ordenadosPorReceita = [...filtered].sort(
+  (a, b) => (Number(b.receita) || 0) - (Number(a.receita) || 0)
+);
   const topProdutos = ordenadosPorReceita.slice(0, 5);
   const bottomProdutos = [...filtered].sort((a, b) => a.receita - b.receita).slice(0, 5);
 
@@ -151,7 +153,14 @@ const filtered: Sale[] = useMemo(() => salesData.filter(s =>
   // Canal distribution
   const porCanal = useMemo(() => {
   const map: Record<string, number> = { Online: 0, Fisico: 0 };
-  filtered.forEach(s => { map[s.canal] += Number(s.receita); });
+
+  filtered.forEach((s) => {
+    const canalNormalizado =
+      s.canal === "Online" ? "Online" : "Fisico";
+
+    map[canalNormalizado] += Number(s.receita) || 0;
+  });
+
   return [
     { name: "Online", value: map.Online },
     { name: "Loja Física", value: map.Fisico },
