@@ -13,7 +13,6 @@ import { useSalesData } from "../hooks/useSalesData";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
 import { Progress } from "../components/ui/progress";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
 import { formatNumber, formatBRL } from "../lib/utils";
 
 const META_MENSAL = 50000;
@@ -67,6 +66,15 @@ const CHART_COLORS = [
 ];
 
 function ym(d: string) { return d.slice(0, 7); }
+
+function formatBRLCompact(value: number) {
+  return new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(value);
+}
 
 function Dashboard() {
 const { salesData, loading } = useSalesData();
@@ -441,17 +449,28 @@ if (loading) {
 /* ---------- Sub-components ---------- */
 
 function FilterSelect({ label, value, onChange, options }: {
-  label: string; value: string; onChange: (v: string) => void; options: { value: string; label: string }[];
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  options: { value: string; label: string }[];
 }) {
   return (
     <div className="space-y-1">
-      <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">{label}</label>
-      <Select value={value} onValueChange={onChange}>
-        <SelectTrigger><SelectValue /></SelectTrigger>
-        <SelectContent>
-          {options.map(o => <SelectItem key={o.value} value={o.value}>{o.label}</SelectItem>)}
-        </SelectContent>
-      </Select>
+      <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
+        {label}
+      </label>
+
+      <select
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="w-full h-10 rounded-md border border-input bg-card px-3 text-sm shadow-sm outline-none focus:ring-2 focus:ring-primary"
+      >
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </select>
     </div>
   );
 }
