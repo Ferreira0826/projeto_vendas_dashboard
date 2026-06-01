@@ -5,20 +5,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/*
- * Design system definition.
- *
- * The @theme inline block maps CSS custom properties to Tailwind utility
- * classes (e.g. --color-primary -> bg-primary, text-primary).
- *
- * The :root and .dark blocks define the actual color values using oklch.
- * All colors MUST use oklch format.
- *
- * To add a new semantic color:
- * 1. Add the variable to :root (light value) and .dark (dark value)
- * 2. Register it in @theme inline as --color-<name>: var(--<name>)
- */
-
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -70,96 +56,99 @@
 :root {
   --radius: 0.625rem;
 
-  --background: #f6f8fb;
-  --foreground: #111827;
+  --background: #050d1a;
+  --foreground: #e2eaf4;
 
-  --card: #ffffff;
-  --card-foreground: #111827;
+  --card: #0a1628;
+  --card-foreground: #e2eaf4;
 
-  --popover: #ffffff;
-  --popover-foreground: #111827;
+  --popover: #0d1d35;
+  --popover-foreground: #e2eaf4;
 
-  --primary: #4f46e5;
-  --primary-foreground: #ffffff;
-  --primary-glow: #7c3aed;
+  --primary: #00c8ff;
+  --primary-foreground: #050d1a;
+  --primary-glow: #0066cc;
 
-  --secondary: #7c3aed;
-  --secondary-foreground: #ffffff;
+  --secondary: #0f2d52;
+  --secondary-foreground: #a8c8e8;
 
-  --muted: #f1f5f9;
-  --muted-foreground: #64748b;
+  --muted: #0c1e36;
+  --muted-foreground: #6b8aaa;
 
-  --accent: #eef2ff;
-  --accent-foreground: #3730a3;
+  --accent: #0a2540;
+  --accent-foreground: #00c8ff;
 
-  --destructive: #dc2626;
+  --destructive: #ff4d6a;
   --destructive-foreground: #ffffff;
 
-  --success: #16a34a;
-  --success-foreground: #ffffff;
+  --success: #00e5a0;
+  --success-foreground: #050d1a;
 
-  --warning: #f59e0b;
-  --warning-foreground: #111827;
+  --warning: #ffb830;
+  --warning-foreground: #050d1a;
 
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #4f46e5;
+  --border: #112240;
+  --input: #0f2040;
+  --ring: #00c8ff;
 
-  --chart-1: #4f46e5;
-  --chart-2: #7c3aed;
-  --chart-3: #0ea5e9;
-  --chart-4: #ec4899;
-  --chart-5: #6366f1;
+  --chart-1: #00c8ff;
+  --chart-2: #0066ff;
+  --chart-3: #00e5a0;
+  --chart-4: #7b61ff;
+  --chart-5: #ff6b9d;
 
-  --gradient-primary: linear-gradient(135deg, #4f46e5, #7c3aed);
-  --gradient-card: linear-gradient(135deg, #ffffff, #f8fafc);
+  --gradient-primary: linear-gradient(135deg, #0066ff 0%, #00c8ff 100%);
+  --gradient-card: linear-gradient(135deg, #0a1e3d 0%, #071428 100%);
+  --gradient-bg: radial-gradient(ellipse at 20% 50%, #0d3a6e 0%, #050d1a 50%),
+                 radial-gradient(ellipse at 80% 80%, #003366 0%, transparent 50%);
 
-  --shadow-elegant: 0 10px 30px -10px rgba(79, 70, 229, 0.25);
-  --shadow-glow: 0 0 40px rgba(124, 58, 237, 0.18);
+  --shadow-elegant: 0 10px 40px -10px rgba(0, 200, 255, 0.2);
+  --shadow-glow: 0 0 40px rgba(0, 200, 255, 0.15);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
 
-  --sidebar: #f8fafc;
-  --sidebar-foreground: #111827;
-  --sidebar-primary: #1e293b;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #f1f5f9;
-  --sidebar-accent-foreground: #1e293b;
-  --sidebar-border: #e2e8f0;
-  --sidebar-ring: #94a3b8;
+  --sidebar: #080f1e;
+  --sidebar-foreground: #e2eaf4;
+  --sidebar-primary: #00c8ff;
+  --sidebar-primary-foreground: #050d1a;
+  --sidebar-accent: #0a2540;
+  --sidebar-accent-foreground: #00c8ff;
+  --sidebar-border: #112240;
+  --sidebar-ring: #00c8ff;
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
-  --muted: oklch(0.279 0.041 260.031);
-  --muted-foreground: oklch(0.704 0.04 256.788);
-  --accent: oklch(0.279 0.041 260.031);
-  --accent-foreground: oklch(0.984 0.003 247.858);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.551 0.027 264.364);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.208 0.042 265.755);
-  --sidebar-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.279 0.041 260.031);
-  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.551 0.027 264.364);
+  --background: #050d1a;
+  --foreground: #e2eaf4;
+  --card: #0a1628;
+  --card-foreground: #e2eaf4;
+  --popover: #0d1d35;
+  --popover-foreground: #e2eaf4;
+  --primary: #00c8ff;
+  --primary-foreground: #050d1a;
+  --secondary: #0f2d52;
+  --secondary-foreground: #a8c8e8;
+  --muted: #0c1e36;
+  --muted-foreground: #6b8aaa;
+  --accent: #0a2540;
+  --accent-foreground: #00c8ff;
+  --destructive: #ff4d6a;
+  --destructive-foreground: #ffffff;
+  --border: #112240;
+  --input: #0f2040;
+  --ring: #00c8ff;
+  --chart-1: #00c8ff;
+  --chart-2: #0066ff;
+  --chart-3: #00e5a0;
+  --chart-4: #7b61ff;
+  --chart-5: #ff6b9d;
+  --sidebar: #080f1e;
+  --sidebar-foreground: #e2eaf4;
+  --sidebar-primary: #00c8ff;
+  --sidebar-primary-foreground: #050d1a;
+  --sidebar-accent: #0a2540;
+  --sidebar-accent-foreground: #00c8ff;
+  --sidebar-border: #112240;
+  --sidebar-ring: #00c8ff;
 }
 
 @layer base {
@@ -169,6 +158,26 @@
 
   body {
     background-color: var(--background);
+    background-image:
+      radial-gradient(ellipse 60% 80% at 0% 50%, rgba(0, 80, 180, 0.35) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 60% at 85% 85%, rgba(0, 150, 220, 0.2) 0%, transparent 60%),
+      radial-gradient(ellipse 30% 40% at 15% 90%, rgba(0, 200, 255, 0.1) 0%, transparent 50%);
+    background-attachment: fixed;
     color: var(--foreground);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #112240;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1a3a6e;
   }
 }
