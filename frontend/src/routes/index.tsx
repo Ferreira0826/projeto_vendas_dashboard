@@ -241,11 +241,6 @@ function Dashboard() {
               <h1 className="text-lg font-semibold tracking-tight">TechNova — Dashboard Executivo</h1>
               <p className="text-xs text-muted-foreground">Performance comercial • Q1 2026</p>
             </div>
-          </div>
-          <Badge variant="secondary" className="hidden md:inline-flex">
-            Atualizado em tempo real
-          </Badge>
-        </div>
       </header>
 
       <main className="mx-auto max-w-[1400px] px-6 py-8 space-y-8">
