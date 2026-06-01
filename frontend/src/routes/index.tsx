@@ -516,7 +516,7 @@ function Dashboard() {
                   allowEscapeViewBox={{ x: true, y: true }}
                 />
                 <Legend />
-                <Bar isAnimationActive={false} dataKey="Meta" fill="var(--muted)" radius={[6, 6, 0, 0]} />
+                <Bar isAnimationActive={false} dataKey="Meta" fill="#112240" radius={[6, 6, 0, 0]} />
                 <Bar isAnimationActive={false} dataKey="Realizado" radius={[6, 6, 0, 0]}>
                   {metaVsReal.map((m, i) => (
                     <Cell

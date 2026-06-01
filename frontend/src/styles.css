@@ -181,3 +181,7 @@
     background: #1a3a6e;
   }
 }
+
+.recharts-rectangle.recharts-tooltip-cursor {
+  fill: rgba(0, 200, 255, 0.05) !important;
+}
