@@ -12,7 +12,7 @@ export function useSalesData() {
 
     let isMounted = true;
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 10000);
+    const timeout = setTimeout(() => controller.abort(), 60000);
 
     async function fetchApi() {
       try {
