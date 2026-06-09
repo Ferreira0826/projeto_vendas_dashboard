@@ -6,6 +6,8 @@ from rest_framework.response import Response
 from django.db.models import Sum, Count, Avg
 from drf_spectacular.utils import extend_schema, OpenApiResponse, inline_serializer
 from rest_framework import serializers
+from .serializers import VendaSerializer, CotacaoDolarSerializer
+from .models import Venda, CotacaoDolar
 
 @extend_schema(
     responses=inline_serializer(
@@ -38,3 +40,8 @@ def kpis(request):
 class VendaViewSet(viewsets.ModelViewSet):
     queryset = Venda.objects.all()
     serializer_class = VendaSerializer
+
+class CotacaoDolarViewSet(viewsets.ReadOnlyModelViewSet):
+    """Cotações diárias do dólar (USD/BRL) importadas via pipeline."""
+    queryset = CotacaoDolar.objects.all()
+    serializer_class = CotacaoDolarSerializer
