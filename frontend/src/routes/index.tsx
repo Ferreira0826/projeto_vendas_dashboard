@@ -16,6 +16,7 @@ import { Progress } from "../components/ui/progress";
 import { formatNumber, formatBRL } from "../lib/utils";
 
 const META_MENSAL = 50000;
+const MES_LIMITE = "2026-06";
 
 export const Route = createFileRoute("/")(({
   component: Dashboard,
@@ -30,7 +31,7 @@ export const Route = createFileRoute("/")(({
 const MONTHS = [
   "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06",
   "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12",
-  "2026-01", "2026-02", "2026-03",
+  "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06",
 ] as const;
 
 const MONTH_LABEL: Record<string, string> = {
@@ -39,6 +40,7 @@ const MONTH_LABEL: Record<string, string> = {
   "2025-07": "Jul/25", "2025-08": "Ago/25", "2025-09": "Set/25",
   "2025-10": "Out/25", "2025-11": "Nov/25", "2025-12": "Dez/25",
   "2026-01": "Jan/26", "2026-02": "Fev/26", "2026-03": "Mar/26",
+  "2026-04": "Abr/26", "2026-05": "Mai/26", "2026-06": "Jun/26",
 };
 
 const CHART_COLORS = [
@@ -77,17 +79,17 @@ function Dashboard() {
 
   // ─── Dados filtrados ───────────────────────────────────────────────────────
   const filtered: Sale[] = useMemo(
-    () =>
-      salesData.filter(
-        (s) =>
-          (periodo === "all" || ym(s.data) === periodo) &&
-          (categoria === "all" || s.categoria === categoria) &&
-          (vendedor === "all" || s.vendedor === vendedor) &&
-          // Canal: a API grava "Fisico" (sem acento), igual ao sales-data.ts local
-          (canal === "all" || s.canal === canal)
-      ),
-    [salesData, periodo, categoria, vendedor, canal]
-  );
+  () =>
+    salesData.filter(
+      (s) =>
+        ym(s.data) <= MES_LIMITE &&
+        (periodo === "all" || ym(s.data) === periodo) &&
+        (categoria === "all" || s.categoria === categoria) &&
+        (vendedor === "all" || s.vendedor === vendedor) &&
+        (canal === "all" || s.canal === canal)
+    ),
+  [salesData, periodo, categoria, vendedor, canal]
+);
 
   // ─── KPIs (derivados de filtered, sem useMemo — são cálculos simples) ─────
   const receitaTotal = useMemo(
