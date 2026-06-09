@@ -4,7 +4,21 @@ from .serializers import VendaSerializer
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.db.models import Sum, Count, Avg
+from drf_spectacular.utils import extend_schema, OpenApiResponse, inline_serializer
+from rest_framework import serializers
 
+@extend_schema(
+    responses=inline_serializer(
+        name="KpisResponse",
+        fields={
+            "receita_total": serializers.FloatField(),
+            "total_pedidos": serializers.IntegerField(),
+            "produtos_vendidos": serializers.IntegerField(),
+            "ticket_medio": serializers.FloatField(),
+        },
+    ),
+    description="Retorna os KPIs agregados de vendas: receita total, total de pedidos, produtos vendidos e ticket médio.",
+)
 @api_view(["GET"])
 def kpis(request):
     vendas = Venda.objects.all()
