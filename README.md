@@ -1,157 +1,146 @@
 # TechNova — Dashboard Executivo de Vendas
 
-> Projeto full stack de portfólio desenvolvido para demonstrar integração entre backend Django, API REST e frontend React com visualização de dados em tempo real.
+> Plataforma full stack de análise de vendas com **pipeline de dados automatizado**, API REST documentada e dashboard executivo interativo. Projeto de portfólio com foco em **engenharia e análise de dados**.
 
-🔗 **Demo ao vivo:** [projeto-vendas-dashboard.vercel.app](https://projeto-vendas-dashboard.vercel.app)  
-🔗 **API:** [projeto-vendas-dashboard.onrender.com/api/vendas](https://projeto-vendas-dashboard.onrender.com/api/vendas/)
+🔗 **Dashboard:** [projeto-vendas-dashboard.vercel.app](https://projeto-vendas-dashboard.vercel.app)
+🔗 **API:** [projeto-vendas-dashboard.onrender.com/api/vendas/](https://projeto-vendas-dashboard.onrender.com/api/vendas/)
+🔗 **Documentação da API (Swagger):** [/api/docs/](https://projeto-vendas-dashboard.onrender.com/api/docs/)
 
 ---
 
-## Sobre o projeto
+## Visão geral
 
-O TechNova é um dashboard executivo de vendas que consome dados de uma API REST Django e os apresenta de forma visual e interativa. O painel permite filtrar por período, categoria, vendedor e canal de vendas, com atualização dinâmica de todos os indicadores e gráficos.
+O TechNova simula o ambiente de dados de uma empresa de varejo de tecnologia. O projeto cobre o ciclo completo de dados: **ingestão de fonte externa, armazenamento em banco gerenciado, exposição via API documentada e visualização em dashboard executivo**.
 
-O projeto foi desenvolvido do zero como exercício prático de stack full stack moderna, cobrindo desde a modelagem de banco de dados até o deploy em produção.
+O diferencial não é apenas exibir dados, mas demonstrar como eles se movem de ponta a ponta, de forma automatizada e auditável.
+
+---
+
+## Arquitetura
+
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│  Fonte externa  │     │  GitHub Actions  │     │   PostgreSQL    │
+│  (AwesomeAPI)   │────▶│  Pipeline diário │────▶│   (Supabase)    │
+│  Cotação USD    │     │  (cron agendado) │     │                 │
+└─────────────────┘     └──────────────────┘     └────────┬────────┘
+                                                          │
+                        ┌──────────────────┐              │
+                        │   Django + DRF   │◀─────────────┘
+                        │   API REST       │
+                        │   (Render)       │
+                        └────────┬─────────┘
+                                 │
+                        ┌────────▼─────────┐
+                        │  React Dashboard │
+                        │  (Vercel)        │
+                        └──────────────────┘
+```
+
+---
+
+## Destaques de engenharia de dados
+
+### Pipeline de ingestão automatizado
+Um script de ingestão (Django management command) busca dados de uma API externa, trata e grava no banco. É executado automaticamente todo dia útil via **GitHub Actions** (cron agendado), com histórico de execuções auditável no repositório.
+
+Características implementadas:
+- **Idempotência** — o uso de `update_or_create` garante que reexecuções não duplicam registros
+- **Tratamento de falhas** — timeouts e erros de rede são tratados sem corromper o banco
+- **Rastreabilidade** — cada registro guarda o timestamp de quando foi importado
+- **Parametrização** — janela de ingestão configurável via argumento de linha de comando
+
+### Banco de dados gerenciado
+Migração de SQLite para **PostgreSQL gerenciado (Supabase)**, refletindo um ambiente de produção real. Ambientes local e de produção compartilham a mesma fonte de dados via connection pooling.
+
+### API documentada
+API REST construída com Django REST Framework, com **documentação OpenAPI/Swagger** gerada automaticamente (drf-spectacular). Endpoints com schema completo e interface interativa.
 
 ---
 
 ## Stack
 
-### Frontend
-- React 18 + Vite
-- TypeScript
-- Tailwind CSS v4
-- TanStack Router
-- Recharts
-- Radix UI / shadcn/ui
-- Deploy: Vercel
-
-### Backend
-- Python / Django 6
-- Django REST Framework
-- SQLite (produção via Render)
+**Backend / Dados**
+- Python, Django, Django REST Framework
+- PostgreSQL (Supabase)
+- drf-spectacular (OpenAPI / Swagger)
+- GitHub Actions (orquestração do pipeline)
 - Deploy: Render
 
+**Frontend**
+- React, Vite, TypeScript
+- Tailwind CSS, Recharts
+- Deploy: Vercel
+
 ---
 
-## Funcionalidades
+## Endpoints da API
 
-- KPIs em tempo real: receita total, pedidos, ticket médio, crescimento mensal
+| Método | Rota | Descrição |
+|--------|------|-----------|
+| GET | `/api/vendas/` | Lista de vendas (CRUD completo) |
+| GET | `/api/kpis/` | KPIs agregados (receita, pedidos, ticket médio) |
+| GET | `/api/cotacao/` | Histórico de cotação do dólar (alimentado pelo pipeline) |
+| GET | `/api/docs/` | Documentação interativa (Swagger) |
+| GET | `/api/schema/` | Schema OpenAPI |
+
+---
+
+## Funcionalidades do dashboard
+
+- KPIs de receita, pedidos, ticket médio e crescimento mensal
+- Evolução de vendas com forecast do próximo mês
+- Receita por categoria e por canal (Online vs Loja Física)
+- Comparativo de Meta vs Realizado
+- Ranking de vendedores e análise de produtos
 - Filtros combinados por período, categoria, vendedor e canal
-- Gráfico de área com evolução de receita + forecast do próximo mês
-- Gráfico de barras com receita por categoria
-- Gráfico de pizza com distribuição por canal (Online vs Loja Física)
-- Comparativo mensal de Meta vs Realizado com destaque visual
-- Ranking de vendedores com barra de progresso
-- Top 5 produtos por receita e produtos de menor desempenho
-- Estoque por produto (top 10)
-- Insights automáticos: melhor vendedor, produto campeão, categoria líder
-- Alertas de metas não atingidas
 
 ---
 
-## Estrutura do projeto
+## Decisões técnicas
 
-```
-projeto_vendas-dashboard/
-├── backend/
-│   ├── config/          # Settings, URLs, WSGI
-│   ├── sales/           # Model, Serializer, Views, URLs
-│   ├── manage.py
-│   ├── vendas.json      # Fixture com dados de exemplo
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── hooks/       # useSalesData (fetch com fallback local)
-│   │   ├── lib/         # sales-data.ts, utils.ts
-│   │   ├── routes/      # index.tsx (dashboard principal)
-│   │   ├── components/  # UI components (shadcn/ui)
-│   │   └── styles.css   # Design system com variáveis CSS
-│   ├── package.json
-│   └── vite.config.ts
-│
-└── README.md
-```
+**Por que Supabase em vez de SQLite?**
+SQLite não reflete um ambiente de produção. O PostgreSQL gerenciado do Supabase oferece um banco real, persistente, com painel de administração e connection pooling — mais próximo do que se encontra no mercado.
+
+**Por que GitHub Actions em vez de um cron pago?**
+O GitHub Actions, além de ser gratuito, mantém o histórico de execuções versionado junto ao código. A automação fica transparente e auditável.
+
+**Por que separar o pipeline da API?**
+O pipeline de ingestão é desacoplado da camada de exposição (API). Isso segue o princípio de responsabilidade única: a ingestão pode evoluir, falhar ou ser reexecutada sem afetar a disponibilidade da API.
 
 ---
 
 ## Como rodar localmente
 
 ### Backend
-
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # Linux/Mac
-
+venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 
+# .env com DATABASE_URL (Supabase) e SECRET_KEY
 python manage.py migrate
-python manage.py loaddata vendas.json
 python manage.py runserver
 ```
 
-API disponível em: `http://localhost:8000/api/vendas/`
+### Pipeline de ingestão (manual)
+```bash
+python manage.py importar_cotacao --dias 30
+```
 
 ### Frontend
-
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Dashboard disponível em: `http://localhost:5173`
-
-Crie um arquivo `.env` na pasta `frontend/` com:
-
-```
-VITE_API_URL=http://localhost:8000
-```
-
----
-
-## Variáveis de ambiente
-
-### Frontend (Vercel)
-| Variável | Valor |
-|---|---|
-| `VITE_API_URL` | URL do backend no Render |
-
-### Backend (Render)
-| Variável | Valor |
-|---|---|
-| `SECRET_KEY` | Chave secreta do Django |
-| `DEBUG` | `False` |
-
----
-
-## Deploy
-
-O frontend é deployado automaticamente na Vercel a cada push na branch `main` (Root Directory configurado como `frontend`).
-
-O backend roda no Render com o seguinte Start Command:
-
-```bash
-python manage.py migrate && python manage.py loaddata vendas.json && gunicorn config.wsgi:application
-```
-
----
-
-## Dados de exemplo
-
-O projeto inclui um dataset fictício com registros de vendas cobrindo múltiplos meses, categorias (Smartphone, Notebook, Tablet, Monitor, Acessórios, Componentes, Smartwatch), vendedores e canais (Online e Loja Física).
-
-Os dados locais em `frontend/src/lib/sales-data.ts` são carregados imediatamente como fallback, enquanto a API é consultada em background.
-
 ---
 
 ## Autor
 
-**Gabriel Ferreira**  
-Analista de Dados | Power BI | SQL | Python | Engenharia de Dados  
+**Gabriel Ferreira**
+Análise e Engenharia de Dados | Power BI · SQL · Python · Django
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/gabriel-ferreira-davila-78565323a/)
-[![GitHub](https://img.shields.io/badge/GitHub-Ferreira0826-black?logo=github)](https://github.com/Ferreira0826)
+[LinkedIn](https://www.linkedin.com/in/gabriel-ferreira-davila-78565323a/) · [GitHub](https://github.com/Ferreira0826)
