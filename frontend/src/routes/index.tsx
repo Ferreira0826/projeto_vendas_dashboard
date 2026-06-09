@@ -780,7 +780,6 @@ function ProductTable({ rows }: { rows: Sale[] }) {
 }
 
 // ChartTooltip com style inline para não depender de classes Tailwind
-// (o portal do Recharts renderiza fora do contexto do Tailwind)
 function ChartTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
   return (
