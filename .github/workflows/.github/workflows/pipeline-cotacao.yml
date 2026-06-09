@@ -1,0 +1,35 @@
+name: Pipeline Cotação do Dólar
+
+# Quando roda:
+on:
+  schedule:
+    # Todo dia útil às 21h UTC (18h Brasília), após fechamento do mercado
+    - cron: "0 21 * * 1-5"
+  workflow_dispatch: {} # Permite rodar manualmente pelo painel do GitHub
+
+jobs:
+  importar-cotacao:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependências
+        working-directory: ./backend
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar pipeline de ingestão
+        working-directory: ./backend
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          DEBUG: "False"
+        run: python manage.py importar_cotacao --dias 5
