@@ -59,7 +59,7 @@ function formatBRLCompact(value: number) {
 }
 
 function Dashboard() {
-  const { salesData, loading } = useSalesData();
+  const { salesData, loading, acordandoApi } = useSalesData();
 
   // ─── Estados dos filtros ───────────────────────────────────────────────────
   const [periodo, setPeriodo] = useState<string>("all");
@@ -221,8 +221,14 @@ function Dashboard() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-background">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-background gap-3">
+        <div className="h-8 w-8 rounded-full border-2 border-primary border-t-transparent animate-spin" />
         <p className="text-muted-foreground">Carregando dados...</p>
+        {acordandoApi && (
+          <p className="text-xs text-muted-foreground/70 max-w-xs text-center">
+            A API está iniciando (servidor gratuito hiberna após inatividade). Isso pode levar até 1 minuto na primeira visita.
+          </p>
+        )}
       </div>
     );
   }
