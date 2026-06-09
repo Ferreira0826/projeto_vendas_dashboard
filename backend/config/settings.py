@@ -98,6 +98,9 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "API REST de vendas do dashboard executivo TechNova. Fornece dados de vendas, produtos, vendedores e canais.",
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
+    "SWAGGER_UI_DIST": "//unpkg.com/swagger-ui-dist@5.11.0",
+    "SWAGGER_UI_FAVICON_HREF": "//unpkg.com/swagger-ui-dist@5.11.0/favicon-32x32.png",
+    "REDOC_DIST": "//unpkg.com/redoc@next",
 }
 
 
