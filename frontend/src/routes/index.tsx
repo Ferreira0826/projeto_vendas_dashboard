@@ -520,8 +520,12 @@ function Dashboard() {
                   wrapperStyle={{ zIndex: 9999, pointerEvents: "none" }}
                   allowEscapeViewBox={{ x: true, y: true }}
                 />
-                <Legend />
-                <Bar isAnimationActive={false} dataKey="Meta" fill="#112240" radius={[6, 6, 0, 0]} />
+                <ReferenceLine
+                  y={META_MENSAL}
+                  stroke="var(--warning)"
+                  strokeDasharray="4 4"
+                  label={{ value: "Meta R$ 50k", fill: "var(--warning)", fontSize: 11, position: "right" }}
+                />
                 <Bar isAnimationActive={false} dataKey="Realizado" radius={[6, 6, 0, 0]}>
                   {metaVsReal.map((m, i) => (
                     <Cell
