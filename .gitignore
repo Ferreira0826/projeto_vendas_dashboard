@@ -3,4 +3,5 @@ __pycache__/
 db.sqlite3
 node_modules/
 dist/
-.env
+.envnode_modules/
+backend/.env
